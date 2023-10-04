@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Kanit;
+    src: url(../fonts/Kanit-Regular.ttf);
+}
+
+h1 {
+    font-family: Kanit, Arial, Helvetica, sans-serif;
+    text-align: center;
+    user-select: none;
+}
+
+.goback {
+    font-size: 1.5em;
+    position: absolute;
+    top: 4px;
+    left: 8px;
+    color: blue;
+}
+
+.poster {
+    height: 100vh;
+}
+
+.posters {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    display: flex;
+    z-index: -1;
+}

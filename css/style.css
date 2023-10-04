@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Kanit;
+    src: url(../fonts/Kanit-Regular.ttf);
+}
+
+:root {
+    font-family: Kanit, Arial, Helvetica, sans-serif;
+    background-color: #1f1f1f;
+    color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+.header-text {
+    text-align: center;
+    width: 50vw;
+    margin: 0 auto;
+    font-size: 2em;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.img-container {
+    width: fit-content;
+}
+
+.display-image {
+    height: 416.5px;
+}
+
+.hitbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    transition: 250ms ease;
+    -webkit-transition: 250ms ease;
+    -moz-transition: 250ms ease;
+    -ms-transition: 250ms ease;
+    -o-transition: 250ms ease;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.hitbox:hover {
+    border: 2px solid green;
+}
+
+
+/* Hitbox Positioning */
+#hitbox-head {
+    top: 0;
+    left: 72px;
+    width: 70px;
+    height: 106px;
+}
+
+#hitbox-body {
+    top:106px;
+    left: 42px;
+    width: 134px;
+    height: 257px;
+}
+
+#hitbox-arm1 {
+    top: 117px;
+    left:0;
+    width: 41px;
+    height: 279px;
+}
+
+#hitbox-arm2 {
+    top: 117px;
+    left: 176px;
+    width: 53px;
+    height: 285px;
+}

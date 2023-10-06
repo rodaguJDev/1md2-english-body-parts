@@ -33,3 +33,11 @@ h1 {
     display: flex;
     z-index: -1;
 }
+
+.idiomatic-expressions {
+    font-family: Kanit, Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 0;
+    right: 10px;
+
+}
